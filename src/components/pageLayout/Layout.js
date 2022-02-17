@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import AssetSection from '../assets-section/AssetSection'
+import BuildWealthSection from '../build-wealth__section/BuildWealthSection'
 import FeatureSection from '../features-section/FeatureSection'
 import Header from '../header/Header'
 import Navbar from '../navbar/Navbar'
@@ -14,6 +15,7 @@ const Layout = () => {
         <Sponsors/>
         <FeatureSection/>
         <AssetSection/>
+        <BuildWealthSection/>
     </StyledLayout>
   )
 }

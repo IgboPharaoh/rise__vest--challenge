@@ -21,7 +21,7 @@ const CustomButton = ({icon, imgClassname, buttonText, textColor, backgroundColo
     hoverBorderColor={hoverBorderColor}
     >
         <div className="text-container">
-            <img src={icon} alt="icon" className={imgClassname}/>
+            <img src={icon} alt="" className={imgClassname}/>
             <p className={buttonTextClassName}>{buttonText || 'Hello world'} <span className="span-text">{spanText}</span></p>
         </div>
     </StyledButton>

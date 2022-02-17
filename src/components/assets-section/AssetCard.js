@@ -57,6 +57,10 @@ const StyledAssetCard = styled.div`
       font-weight: 600;
       letter-spacing: -0.05em;
       line-height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
     }
     &__body-text{
       padding: 1rem 0 0.8rem;

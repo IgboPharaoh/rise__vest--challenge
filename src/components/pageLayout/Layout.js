@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import FeatureSection from '../feature-card/FeatureSection'
 import Header from '../header/Header'
 import Navbar from '../navbar/Navbar'
 import Sponsors from '../sponsors/Sponsors'
@@ -10,6 +11,7 @@ const Layout = () => {
         <Navbar/>
         <Header/>
         <Sponsors/>
+        <FeatureSection/>
     </StyledLayout>
   )
 }

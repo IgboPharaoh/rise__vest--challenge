@@ -60,6 +60,11 @@ html {
 	  --white: white;
 	  --black: #2D2D2D;
 	  --lightBlack: #484848;
+	  --borderGray: #919FB5;
+	  --assetOrange: #FFF4F0;
+	  --assetIndigo: #F6F2FF;
+	  --assetTeal: #ECFEFE;
+	  --assetGray: #4A5050;
   }
 
   /* @font-face {

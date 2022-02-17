@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import FeatureSection from '../feature-card/FeatureSection'
+import AssetSection from '../assets-section/AssetSection'
+import FeatureSection from '../features-section/FeatureSection'
 import Header from '../header/Header'
 import Navbar from '../navbar/Navbar'
 import Sponsors from '../sponsors/Sponsors'
@@ -12,6 +13,7 @@ const Layout = () => {
         <Header/>
         <Sponsors/>
         <FeatureSection/>
+        <AssetSection/>
     </StyledLayout>
   )
 }
@@ -19,7 +21,7 @@ const Layout = () => {
 const StyledLayout = styled.div`
     border: 1px solid teal;
     margin: 0 auto;
-    padding: 0rem 4rem;
+    padding: 0rem 3.2rem;
     max-width: 108.8rem;
 
     @media(max-width:767px) {

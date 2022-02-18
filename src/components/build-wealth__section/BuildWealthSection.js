@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import buildwealth from '../../assets/buildwealth.svg'
+import buildwealth from '../../assets/buildwealth4.png'
 import CustomButton from '../button/CustomButton'
 
 const BuildWealthSection = () => {
@@ -31,6 +31,9 @@ const StyedSection = styled.div`
     color: var(--black);
 
     .build-wealth{
+        &__img{
+            width: 31.6rem;
+        }
         &__heading{
             font-size: 4rem;
             line-height: 4.8rem;

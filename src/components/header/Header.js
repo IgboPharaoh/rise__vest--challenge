@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import phone from '../../assets/headerphone-logo.svg'
+import phone from '../../assets/header-phone.png'
 import CustomButton from '../button/CustomButton'
 import appleLogo from '../../assets/apple-logo.svg'
 import googleLogo from '../../assets/googleplay-logo.svg'

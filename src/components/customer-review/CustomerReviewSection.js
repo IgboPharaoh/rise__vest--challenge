@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import CustomerReviewCard from './CustomerReviewCard'
-import ladeImg from '../../assets/ladeimg.svg'
-import jesseImg from '../../assets/jesse.svg'
-import rayeImg from '../../assets/raye.svg'
+import ladeImg from '../../assets/lade.png'
+import jesseImg from '../../assets/jesse.png'
+import rayeImg from '../../assets/raye.png'
 
 const CustomerReviewSection = () => {
   return (

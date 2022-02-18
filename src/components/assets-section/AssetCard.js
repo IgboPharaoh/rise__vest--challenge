@@ -84,6 +84,9 @@ const StyledAssetCard = styled.div`
       justify-content: center;
       margin-top: -5.5rem;
     }
+    &__img{
+      width: 8.5rem;
+    }
   }
   p{
     font-size:1.6rem;

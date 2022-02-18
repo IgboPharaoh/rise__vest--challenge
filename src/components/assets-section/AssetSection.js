@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import AssetCard from './AssetCard'
-import stocksImg from "../../assets/stocks-img.svg"
-import realEstateImg from "../../assets/real-estate.svg"
-import fixedIncomeImg from "../../assets/fixed-income.svg"
+import stocksImg from "../../assets/stocks-photo.png"
+import realEstateImg from "../../assets/real-estate.png"
+import fixedIncomeImg from "../../assets/fixed-income.png"
 
 const AssetSection = () => {
   return (
@@ -69,6 +69,11 @@ const StyledAssestSection = styled.div`
      }
 
      @media (max-width:767px){
+         .asset-section{
+             &__title{
+                 font-size: 3.2rem;
+             }
+         }
          .asset-card__section{
             flex-direction: column;
             margin: 0 auto;

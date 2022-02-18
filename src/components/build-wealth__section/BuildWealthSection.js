@@ -26,7 +26,6 @@ const StyedSection = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     align-items: center;
-    justify-content: space-between;
     padding-top: 8rem;
     color: var(--black);
 

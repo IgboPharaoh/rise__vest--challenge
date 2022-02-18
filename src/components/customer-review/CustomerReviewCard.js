@@ -19,6 +19,7 @@ const StyledCard = styled.div`
     border: 1px solid #ECFEFE;
     padding: 2.4rem;
     box-shadow: 0px 12px 24px 0px #40BBC326;
+    border-radius: 0.5rem;
 
     .customer-card{
         &__container{

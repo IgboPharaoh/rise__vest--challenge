@@ -42,11 +42,6 @@ const StyledFeatures = styled.div`
             color: var(--black);
             max-width: 36rem;
         }
-        &__container-link{
-            display: flex;
-            align-items: baseline;
-            
-        }
         &__link{
             text-decoration: none;
             font-size:1.8rem;

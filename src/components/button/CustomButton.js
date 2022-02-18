@@ -72,15 +72,26 @@ const StyledButton = styled.button`
         }
     }
     
-    @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 445px) {
         padding-top: ${({ minPaddingTopAndBottom }) =>
-        minPaddingTopAndBottom || 0.4}rem;
+        minPaddingTopAndBottom || 1}rem;
         padding-bottom: ${({ minPaddingTopAndBottom }) =>
-        minPaddingTopAndBottom || 0.4}rem;
+        minPaddingTopAndBottom || 1}rem;
         padding-right: ${({ minPaddingRightAndLeft }) =>
-        minPaddingRightAndLeft || 1}rem;
+        minPaddingRightAndLeft || 1.6}rem;
         padding-left: ${({ minPaddingRightAndLeft }) =>
-        minPaddingRightAndLeft || 1}rem;
+        minPaddingRightAndLeft || 1.6}rem;
+        font-size: 1rem;
+    }
+    @media only screen and (max-width: 400px) {
+        padding-top: ${({ minPaddingTopAndBottom }) =>
+        minPaddingTopAndBottom || 0.6}rem;
+        padding-bottom: ${({ minPaddingTopAndBottom }) =>
+        minPaddingTopAndBottom || 0.6}rem;
+        padding-right: ${({ minPaddingRightAndLeft }) =>
+        minPaddingRightAndLeft || 0.8}rem;
+        padding-left: ${({ minPaddingRightAndLeft }) =>
+        minPaddingRightAndLeft || 0.8}rem;
         font-size: 1rem;
     }
 `

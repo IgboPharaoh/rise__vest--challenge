@@ -21,6 +21,7 @@ const BuildWealthSection = () => {
   )
 }
 const StyedSection = styled.div`
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
@@ -52,7 +53,12 @@ const StyedSection = styled.div`
             line-height: 2.4rem;
             padding: 1.6rem 0 3.2rem;
             font-family: DM sans;
+            max-width: 36rem;
         }
+    }
+    @media (max-width:767px){
+        display: none;
+        
     }
 `
 

@@ -40,6 +40,7 @@ const StyledFeatures = styled.div`
             padding: 1rem 0 2.4rem;
             line-height: 2.4rem;
             color: var(--black);
+            max-width: 36rem;
         }
         &__container-link{
             display: flex;

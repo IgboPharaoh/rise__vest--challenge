@@ -21,7 +21,6 @@ const Layout = () => {
 }
 
 const StyledLayout = styled.div`
-    border: 1px solid teal;
     margin: 0 auto;
     padding: 0rem 3.2rem;
     max-width: 108.8rem;

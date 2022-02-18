@@ -35,6 +35,7 @@ const CustomerReviewSection = () => {
 const StyedSection = styled.div`
     text-align: center;
     margin: 0 auto;
+    padding: 0 0 8rem ;
 
     .customer-review{
         &__heading{

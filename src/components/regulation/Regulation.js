@@ -22,9 +22,9 @@ const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
     align-items:center;
-    text-align:center;
     padding: 8rem 0;
     margin: 0 auto;
+    text-align: center;
 
     h2{
         font-size: 4rem;
@@ -48,10 +48,6 @@ const StyledSection = styled.div`
     }
     .img-1{
         margin-left: -5rem;
-        
-    }
-    .img-2{
-        margin-right: -5rem;
         
     }
     @media (max-width: 1024px){
